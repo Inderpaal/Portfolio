@@ -1,0 +1,17 @@
+*{
+    color: white;
+}
+
+.Name{
+    top: 40%;
+    right: 10%;
+    position: absolute;
+    font-size: 45px;
+    z-index: -1;
+}
+
+.Learnmore{
+    position: absolute;
+    left:18%;
+    top:75%
+}

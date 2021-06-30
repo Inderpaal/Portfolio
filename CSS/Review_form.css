@@ -1,0 +1,61 @@
+*{
+    color: white;
+}
+
+.Name{
+    top: 40%;
+    left: 10%;
+    position: absolute;
+    color: white;
+    font-size: 23px;
+    z-index: -1;
+}
+
+.Form{
+    border:2px grey solid;
+    border-radius: 20px;
+    box-shadow: grey 2px 2px 2px 2px;
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    width: 33.3%;
+    padding:3.5%;
+    resize: vertical;
+    align-content: center;
+}
+
+.Form h1{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 30px;
+
+}
+
+
+input,label{
+    margin: 0px 0px 0px 20px;
+    width: 80%;
+    font-size: larger;
+}
+
+
+input{
+    margin-top: 8px;
+    color: black;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+textarea{
+    display: block;
+    height: 75px;
+    width: 75%;
+    resize: vertical;
+    color: black;
+    margin-left: 20px;
+    font-size: larger;
+    padding: 5px;
+    border-radius: 10px;
+}
+

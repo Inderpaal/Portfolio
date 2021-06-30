@@ -1,0 +1,68 @@
+img{
+    width: 330px;
+    border-radius: 20px;
+}
+
+.certificate_container_3 img{
+    width: 350px;
+}
+
+.certificate_container_1 , .certificate_container_2,.certificate_container_3{
+    position: absolute;
+    border: 1px black solid;
+    box-shadow: 2px 2px 2px 2px grey;
+    border-radius: 20px;
+    height:fit-content;
+    opacity: 75%;
+    padding:5px;
+}
+
+.text{
+    position: relative;
+    left: 35%;
+    border-radius: 25%;
+    padding: 10px 0px 10px 0px ;
+    
+}
+
+.text a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+
+.certificate_container_1{
+    left:10%;
+    top:30%;
+}
+
+.certificate_container_2{
+    left:38%;
+    top:30%;
+}
+
+.certificate_container_3{
+    left:65%;
+    top:30%;
+}
+
+
+.certificate_container_1:hover, .certificate_container_2:hover, .certificate_container_3:hover {
+    opacity: 100%;
+    box-shadow: 4px 4px 4px 4px rgb(116, 113, 113);
+    transition: .2s ease-in;
+    background-color: white;
+    border-color: white;
+}
+
+.certificate_container_1:hover .text a, .certificate_container_2:hover .text a , .certificate_container_3:hover .text a{
+    color: grey;
+}
+
+@keyframes JumpInAnimation {
+    0% {
+        top:0%
+    }
+    100% {
+        
+     }
+}

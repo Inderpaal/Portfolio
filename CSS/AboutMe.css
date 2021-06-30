@@ -1,0 +1,31 @@
+.Name {
+    top: 40%;
+    right: 25%;
+    position:absolute;
+    color: white;
+    font-size: 150px;
+    z-index: -1;
+    opacity: 20%;
+}
+
+img{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    height: 500px;
+}
+
+.About_me_content{
+    position: absolute;
+    top:25%;
+    left:10%;
+    width: 33.3%;
+    color: white;
+    font-size: larger;
+}
+
+.container_social_media{
+    display: block;
+    left: 9%;
+}
+
